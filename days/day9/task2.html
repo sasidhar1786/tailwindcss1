@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Footer with Icons and Links</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<style>
+  .footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .column {
+    flex: 1;
+    text-align: left;
+    padding: 0 20px;
+  }
+
+  .column p {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .column ul {
+    list-style-type: none;
+    padding: 2px;
+    margin: 0;
+  }
+
+  .column ul li {
+    padding: 2px;
+    margin-bottom: 5px;
+  }
+
+  .column i {
+    margin-right: 5px;
+  }
+
+  .column a {
+    color: white;
+    text-decoration: none;
+  }
+</style>
+</head>
+<body>
+<footer class="footer">
+  <div class="column">
+    <p><i class="fas fa-building"></i> Company</p>
+    <ul>
+      <li><a href="#"><i class="fas fa-info-circle"></i> About Us</a></li>
+      <li><a href="#"><i class="fas fa-briefcase"></i> Careers</a></li>
+      <li><a href="#"><i class="fas fa-shield-alt"></i> Privacy Policy</a></li>
+      <li><a href="#"><i class="fas fa-envelope"></i> Contact Us</a></li>
+    </ul>
+  </div>
+
+  <div class="column">
+    <p><i class="fas fa-book"></i> Learn</p>
+    <ul>
+      <li><a href="#"><i class="fas fa-code"></i> Algorithms</a></li>
+      <li><a href="#"><i class="fas fa-sitemap"></i> Data Structures</a></li>
+      <li><a href="#"><i class="fas fa-language"></i> Languages</a></li>
+      <li><a href="#"><i class="fas fa-book-open"></i> CS Subjects</a></li>
+      <li><a href="#"><i class="fas fa-video"></i> Video Tutorials</a></li>
+    </ul>
+  </div>
+
+  <div class="column">
+    <p><i class="fas fa-laptop-code"></i> Practice</p>
+    <ul>
+      <li><a href="#"><i class="fas fa-building"></i> Company-wise</a></li>
+      <li><a href="#"><i class="fas fa-list"></i> Topic-wise</a></li>
+      <li><a href="#"><i class="fas fa-trophy"></i> Contests</a></li>
+      <li><a href="#"><i class="fas fa-edit"></i> Subjective Questions</a></li>
+    </ul>
+  </div>
+</footer>
+
+</body>
+</html>

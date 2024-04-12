@@ -1,0 +1,220 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+     text-transform: capitalize;
+}
+.navbar{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.logo h1{
+    margin-top: 20px;
+    margin-left: 40px;
+    border: 1px solid rgb(202, 144, 144);
+    border-radius: 3px;
+    /* width: 60px; */
+}
+.nav-item a{
+    text-decoration: none;
+    display: block;
+    padding: 12px;
+    width: 120px;
+    border: 1px solid lightblue;
+    text-align: center;
+    margin-left: 4px;
+    border-radius: 4px;
+}
+.nav-item{
+    display: flex;
+    margin-left: 22px;
+}
+ul li{
+    list-style-type: none;
+}
+.img h1{
+    font-size: 40px;
+    color: aliceblue;
+}
+.img{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(./images/img-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img-footer img{
+ width: 100vw;
+ height: 60vh;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    background: black;
+    color: antiquewhite;
+}
+.input{
+    margin: 12px;
+}
+input, textarea{
+    width: 100%;
+    padding: 20px;
+    margin-top: 12px;
+    height: 50px;
+}
+form a{
+    text-decoration: none;
+    display: block;
+    width: 30%;
+    height: 40px;
+    margin-top: 20px;
+    padding-top: 13px;
+    background-color: black;
+  color: rgb(40, 163, 122);
+  text-align: center;
+  border-radius: 3px;
+
+}
+p{
+    margin: 4px;
+}
+.img-header{
+    margin-top: 10px;
+    width: 100%;
+    height: 90vh;
+    display: grid;
+    /* flex-wrap: wrap; */
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px;
+    gap: 10px 20px;
+
+}
+.img-header h1{
+ display: inline-block;
+ background-color: black;
+ color: aqua;
+ width: 50%;
+ text-align: center;
+}
+
+ .h1{
+    /* width: 300px; */
+    /* height: 400px; */
+    background: url(./images/img-2.jpg);
+    /* width: 100%; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.h2{ 
+    /* width: 300px; */
+    /* height: 400px; */
+    background: url(./images/img-3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.h3{
+    /* width: 300px; */
+    /* height: 400px; */
+    background: url(./images/img-5.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.h4{
+    /* width: 300px; */
+    /* height: 400px; */
+    background: url(./images/img-4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.h5{
+    /* width: 300px; */
+    /* height: 400px */
+    background: url(./images/img-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.h6{
+    /* width: 300px; */
+    /* height: 400px; */
+    background: url(./images/img-5.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.h7{
+    /* width: 300px; */
+    /* height: 400px; */
+    background: url(./images/img-3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.h8{
+    /* width: 300px; */
+    /* height: 400px; */
+    background: url(./images/img1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* .flex-img{
+    width: 100%;
+    height: 500px;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    grid-template-rows: 300px;
+}
+.img-main{
+    width: 25%;
+    height: 400px;
+    display: inline;
+    flex-direction: column;
+} */
+.about{
+    width: 100vw;
+    height: 72vh;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+.parent{
+    margin-top: 10px;
+    width: 100vw;
+    height: 40vh;
+    display: flex;
+    gap: 18px;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr; */
+}
+.child{
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+}
+.child h1, .child dd, .child p{
+    margin-left: 8px;
+    margin-top: 3px;
+    margin-bottom: 6px;
+}
+button{
+    padding: 8px;
+}
+input:[type= number]{
+    width: 300px;
+}
+.input11{
+    width: 300px;
+}

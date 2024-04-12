@@ -21,7 +21,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            background-image:  url(./img1.jpg);
+            background-image:  url(./images/img1.jpg);
             background-position: center;
             background-size: cover;
             background-repeat: no-repeat;         
@@ -48,9 +48,9 @@ section{
     flex-wrap: wrap;
     gap: 18px 40px;
 }
-.rel{
+/* .rel{
     position: relative;
-    top: 300px;
-}
+    top: 270px;
+} */
          
     
